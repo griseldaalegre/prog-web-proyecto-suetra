@@ -1,0 +1,157 @@
+.bg{
+    background-color: #202325;
+    
+}
+:root {
+    --bs-body-font-family: var(--bs-font-sans-roboto);
+}
+
+.container_footer {
+    display: flex;
+}
+
+.box_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box_redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacto_item {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+
+.redes_item {
+    width: 35px;
+    height: 35px;
+}
+
+.box-cont {
+    align-items: center;
+    display: flex;
+    align-items: revert;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+.cont-redes {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: revert;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+
+
+/*Redes*/
+.cont-redes {
+    width: 100%;
+}
+
+.box_telefono,
+.box_whatsapp,
+.box_ubicacion,
+.box_mail {
+    color: white;
+}
+
+.log1 {
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+svg {
+    color: beige;
+}
+
+
+/*responsive*/
+@media (max-width: 768px) {
+    .box-cont {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .cont-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .respons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;        
+    }
+}
+@media (max-width: 576px) {
+    .box-cont {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: unset;
+        text-decoration: none;
+        margin-top: 0;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .cont-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .respons-redes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;        
+    }
+ }
+
+@media (max-width: 425px) {
+    .box-cont {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: unset;
+        text-decoration: none;
+        margin-top: 0;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .cont-redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .respons-redes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;        
+    }
+
+}
+
+
+
