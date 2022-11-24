@@ -1,12 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S.U.E.T.R.A</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>SUETRA</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="css/styleslider.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/footer/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fc504b7889.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <div class="nav-container">
+            <nav class="nav">
+                <div class="logo-text">
+                    <img class="logo" src="img/suetrahd.png" alt="logo">
+                    <p class="logo-description">SUETRA Tandil</p>
+                </div>
+                <button class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="menu">
+                    <li class="link">
+                        <a href="#" class="nav-menu-link">LOREM</a>
+                    </li>
+                    <li class="link">
+                        <a href="#" class="nav-menu-link">LOREM</a>
+                    </li>
+                    <li class="link">
+                        <a href="#" class="nav-menu-link">LOREM</a>
+                    </li>
+                    <li class="link">
+                        <a href="#" class="nav-menu-link">LOREM</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-------------------------------SLIDER------------------------------------------->
+    <section id="slider">
+      <input type="radio" name="slider" id="s1" class="d-none" checked>
+      <input type="radio" name="slider" id="s2" class="d-none" >
+      <input type="radio" name="slider" id="s3" class="d-none">
+      <input type="radio" name="slider" id="s4" class="d-none">
+      <input type="radio" name="slider" id="s5" class="d-none">
+
+
+      <label for="s1" id="slide1" class="bg-primary">
+          <img src="./img/logo.png" id="logoslider" class="animate__animated animate__flip img-fluid">
+          
+      </label>
+
+      <label for="s2" id="slide2">
+          <img src="./img/sliderimg (5).png" height="100%" width="100%">
+          <div class="carousel-caption ">
+
+              
+              <button type="button" class="btn  " id="bottonslider">Informacion</button>
+
+          </div>
+
+      </label>
+
+      <label for="s3" id="slide3">
+          <img src="./img/sliderimg (2).png" height="100%" width="100%">
+          <div class="carousel-caption ">
+
+
+
+              
+              <button type="button" class="btn  " id="bottonslider">Informacion</button>
+
+          </div>
+
+
+      </label>
+
+      <label for="s4" id="slide4" class="bg-light">
+          <img src="./img/slider5.jpg"  height="90%" width="auto">
+
+         <div class="carousel-caption ">
+              
+                  
+                  <button type="button" class="btn  " id="bottonslider">Informacion</button>
+              
+          </div>
+      </label>
+
+      <label for="s5" id="slide5">
+          <img src="./img/sliderimg (4).png" height="100%" width="100%">
+          <div class="carousel-caption ">
+              
+              
+              <button type="button" class="btn  " id="bottonslider">Informacion</button>
+          
+      </div>
+      </label>
+
+
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------------SLIDER--------------------------------------------->
+
+   <!--CARD-->
+   <card class="text-center text-lg-start bg text-white">
+
+    <section class="container_card">
+    <!--contacto-->
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0 bg ">
+          <div class="col-md-4">
+            <img src="img/logos.card/contacto.png" class="img-fluid rounded-start" alt="none">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">CONTACTO</h5>
+              <p class="card-text">Puedes ponerte en contacto con nuestros representantes
+                                     a través de nuestro correo o vía whatsapp.</p>
+              <a href="#" class="btn btn-primary">CLICK AQUI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--coseguro-->
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0 bg ">
+          <div class="col-md-4">
+            <img src="img/logos.card/coseguro.png" class="img-fluid rounded-start" alt="none">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">COSEGURO</h5>
+              <p class="card-text">Brindamos más y mejores servicios para nuestros afiliados 
+                                  promoviendo la prevención y promoción para la Salud de los
+                                   Trabajadores de SUETRA.</p>
+              <a href="#" class="btn btn-primary">AFILIATE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--capacitaciones-->
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0 bg ">
+          <div class="col-md-4">
+            <img src="img/logos.card/capacitate.png" class="img-fluid rounded-start" alt="none">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">CAPACITACIONES</h5>
+              <p class="card-text">"Formar para el trabajo”
+                                    El pilar guía de nuestras áreas
+                                     y opciones de capacitación.</p>
+              <a href="#" class="btn btn-primary">CLICK AQUI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--asesor legal-->
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0 bg ">
+          <div class="col-md-4">
+            <img src="img/logos.card/asesor.legal.png" class="img-fluid rounded-start" alt="none">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">ASESOR LEGAL</h5>
+              <p class="card-text">Pregunte y obtenga su respuesta ya!</p>
+              <a href="#" class="btn btn-primary">CLICK AQUI</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--afiliate-->
+    <div class="card mb-3" style="max-width: 540px;" >
+        <div class="row g-0 bg ">
+          <div class="col-md-4">
+            <img src="img/logos.card/afiliate.png" class="img-fluid rounded-start" alt="none">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">AFILIATE</h5>
+              <p class="card-text">Si no estás en un sindicato y sufrís la vulneración de tus derechos, 
+                                    S.U.E.T.R.A esta para acompañarte ante la falta de representatividad,
+                                    en la realización de tramites y reclamos laborales, como así la defensa de tu salario.</p>
+              <a href="#" class="btn btn-primary">AFILIATE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--final CARD-->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg text-white">
+
+        <section class="container_footer">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Sobre Nosotros
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-4 respons">
+
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contactanos
+                        </h6>
+                        <div class="box_contacto">
+
+                            <a href="" class="box-cont">
+                                <img src="https://img.icons8.com/ios-filled/50/EBEBEB/phone.png"
+                                    class="contacto_item" />
+                                <p class="box_telefono">+54 (0221) 421-7414 </p>
+                            </a>
+                            <a href="" class="box-cont">
+                                <img src="https://img.icons8.com/color/48/null/gmail--v1.png" class="contacto_item" />
+                                <p class="box_mail">suetrata@gmail.com</p>
+                            </a>
+
+                            <a href="" class="box-cont">
+                                <!--whatsapp-->
+                                <img src="https://img.icons8.com/color/48/null/whatsapp--v1.png"
+                                    class="contacto_item" />
+                                <p class="box_whatsapp">2494-32324 - 374758</p>
+                            </a>
+                            <a href="" class="box-cont">
+
+                                <img src="https://img.icons8.com/color/48/null/marker--v1.png" class="contacto_item" />
+                                <P class="box_ubicacion"> Garibaldi 1583, B7001 </P>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3  col-lg-2 col-xl-2 mx-auto mb-4 respons-redes">
+                        <!-- Section: Links  -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Nuestras redes
+                        </h6>
+                        <div class="box_redes">
+                            <!--Facebook-->
+                            <a href="" class="cont-redes">
+                                <img src="https://img.icons8.com/fluency/48/null/facebook-circled.png"
+                                    class="redes_item" />
+                            </a>
+                            <a href="" class="cont-redes">
+                                <!--Instagram-->
+                                <img src="https://img.icons8.com/fluency/48/null/instagram-new.png"
+                                    class="redes_item" />
+                            </a>
+                            <a href="" class="cont-redes">
+                                <!--Youtube-->
+                                <img src="https://img.icons8.com/color/48/null/youtube-play.png" class="redes_item" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="border-bottom">
+        </section>
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            Copyright © 2022 Todos los Derechos Reservados | S.U.E.T.R.A.
+
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,7 @@
+.bg{
+    background-color: #202325;
+    
+}
+:root {
+    --bs-body-font-family: var(--bs-font-sans-roboto);
+}
