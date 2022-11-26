@@ -1,17 +1,4 @@
-.logo-text {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 60px;
-    margin: 0 10px;
-}
-
-.logo-description .text-white{
-    margin-top: 0;
-}
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
@@ -159,8 +146,9 @@
         align-items: center;
         margin-bottom: 0px;
         /*height: 200px;
-
+*/
     }
+
     .link {
         list-style: none;
         padding: 5px 0;
@@ -186,11 +174,12 @@
     ::-webkit-scrollbar-track {
         background: #101010;
         border-radius: 10px;
-    
+      
+        
     }
     
     ::-webkit-scrollbar-thumb{
         background: #00ffff;
         border-radius: 10px;
-    }
-}*/
+    }*/
+}
