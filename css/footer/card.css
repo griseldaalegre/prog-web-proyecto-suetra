@@ -5,3 +5,7 @@
 :root {
     --bs-body-font-family: var(--bs-font-sans-roboto);
 }
+
+.contenedor_card_general{
+    background-color: aqua;
+}
