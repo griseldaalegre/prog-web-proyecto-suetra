@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**/
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+#div2 {
+    flex: 1;
+    background-color: #fff;
+}
+/**/
+main {
+    height: 310px;
+}
+
+.Pack {
+    margin-top: 100px;
+}
+
+.ContenedorBotones {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+
+    display: block;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+
+.Botones {
+
+    background-color: #33B0F2;
+    color: #fff;
+    text-decoration: none;
+    margin: 50px;
+    padding: 20px 30px;
+    border-radius: 12px;
+
+}
+
+
+.Afiliacion {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+    color: #202325;
+}
+
+.txt {
+    width: 56.25em;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #202325
+}
+
+.Botones:hover {
+    background-color: #fff;
+    color: #33B0F2;
+}
+
+@media only screen and (max-width: 900px) {
+    .ContenedorBotones {
+        display: block;
+    }
+
+    .Botones {
+        width: 95%;
+        margin: 10px;
+    }
+}

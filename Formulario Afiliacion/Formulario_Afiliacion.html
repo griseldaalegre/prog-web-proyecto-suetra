@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script>
+    <link rel="stylesheet" href="formAfiliacion.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="LogoSuetra">
+                <img id="LogoSuetra" src="../Formulario Afiliacion/imgForm/suetrahd.png" alt="Logo SUETRA" style="width: 150px;">
+            </div>
+
+            <div class="SUETRA">
+                <div>
+                    <h1>S.U.E.T.R.A.</h1>
+                    <h2>SINDIACTO UNIDO DE EDUCADORES TÉCNICOS DE LA REPUBLICA ARGENTINA</h2>
+                </div>
+
+                <div>
+                    <h2 id="Insc">INSCRIPCIÓN GREMIAL N° 2242 - M.T.E. y F.R.H.N.</h2>
+                </div>
+            </div>
+
+            <div class="LogoCGT">
+                <img id="LogoCGT" src="../Formulario Afiliacion/imgForm/WhatsApp Image 2022-11-15 at 10.02.10.jpeg" alt="Logo CGT" style="width: 150px">
+
+            </div>
+        </div>
+    </header>
+
+    <hr>
+    <div class="SolicitudAfiliacion">
+
+        <h2 id="SolAfi">SOLICITUD DE AFILIACIÓN</h2>
+
+    </div>
+    <main>
+        <div>
+            <form action="">
+                <fieldset class="envuelve">
+                    <fieldset>
+                        <div class="ContenedorL">
+                            <div class="Cajon"><label for="">Entidad:</label></div>
+                        </div>
+                        <input type="text">
+
+
+                        <div class="ContenedorL">
+                            <div class="Cajon"><label for="">Fecha</label></div>
+                        </div>
+                        <input type="date" id="Calendario" name="" value="" min="2022-01-01" max="">
+
+
+                        <div>
+                            <div class="ContenedorL"><label for="">Provincia</label></div>
+                            <select name="" id="SelectProvincia">
+                                <option value="Seleccione su Provincia">Seleccione su Provincia</option>
+                            </select>
+                        </div>
+
+
+                        <div>
+                            <div class="ContenedorL"><label for="">Municipio</label></div>
+                            <select name="" id="SelectMunicipio">
+                                <option value="Seleccione el Municipio">Seleccione el Municipio</option>
+                            </select>
+                        </div>
+
+
+                        <div>
+                            <div class="ContenedorL"><label for="">Localidad</label></div>
+                            <select name="" id="SelectLocalidad">
+                                <option value="Seleccione su Localidad">Seleccione su Localidad</option>
+                            </select>
+                        </div>
+
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="envuelve">
+                    <fieldset>
+                        <legend id="Encabezado">Informacion Personal</legend>
+
+                        <div>
+                            <div class="ContenedorL"><label for="">Apellido:</label> </div>
+                            <input type="text" name="Apellido" placeholder="Apellido">
+
+                            <div class="ContenedorL"><label for="">Nombre/s:</label> </div>
+                            <input type="text" name="Nombres" placeholder="Nombre/s">
+
+                            <div class="ContenedorL"><label for="">D.N.I.:</label> </div>
+                            <input type="number" name="DNI" placeholder="D.N.I.">
+
+                            <div class="ContenedorL"><label for="">Correo Electrónico:</label> </div>
+                            <input type="email" name="E-mail" placeholder="Correo Electronico">
+
+                            <div class="ContenedorL"><label for="">Telefono Particular:</label> </div>
+                            <input type="number" name="TelefonoParticular" placeholder="Telefono Particular">
+
+                            <div class="ContenedorL"><label for="">Telefono Celular:</label> </div>
+                            <input type="number" name="TelefonoCelular" placeholder="Telefono Celular">
+
+                            <div class="ContenedorL"><label for="">Domicilio:</label> </div>
+                            <input type="text" name="Domicilio" placeholder="Domicilio">
+
+                            <div class="ContenedorL"><label for="">Codigo Postal:</label> </div>
+                            <input type="number" name="CodPostal" placeholder="Código Postal">
+
+                            <div class="ContenedorL"><label for="">Distrito:</label> </div>
+                            <input type="text" name="Distrito" placeholder="Distrito">
+
+                            <div class="ContenedorL"><label for="">Lugar de Trabajo:</label> </div>
+                            <input type="text" name="LugarTrabajo" placeholder="Lugar de Trabajo">
+
+                            <div class="ContenedorL"><label for="">Situacion de Revista:</label> </div>
+                            <input type="text" name="SituaciónRevista" placeholder="Situación de Revista">
+
+                            <div class="ContenedorL"><label for="">Establecimiento:</label> </div>
+                            <input type="text" name="Establecimiento" placeholder="Establecimiento">
+
+                            <div class="ContenedorL"><label for="">Cargo:</label> </div>
+                            <input type="text" name="Cargo" placeholder="Cargo">
+
+                            <div class="ContenedorL"><label for="">Horas/Módulo:</label> </div>
+                            <input type="text" name="HorasModulo" placeholder="Horas/Módulo">
+
+                            <div class="ContenedorL"><label for="">Documentación:</label> </div>
+                            <input type="text" name="Documentacion" placeholder="Documentación">
+                        </div>
+                    </fieldset>
+                </fieldset>
+
+                <p>NOTA: ANEXO DE FOTOCOPIA DE DNI Y RECIBO DE SUELDO DEL SOLICITANTE</p>
+
+                <fieldset class="envuelve">
+                    <fieldset>
+                        <div class="firmas">
+                            <div class="SolicitanteAfiliado">
+                                <ul>
+                                    <li>_________________</li>
+                                    <li>Firma del Solicitante</li>
+                                    <li>Aclaracion:</li>
+                                    <li>DNI:</li>
+                                    <li>Lugar y Fecha:</li>
+                                </ul>
+                            </div>
+                            <div class="SolicitanteGremio">
+                                <ul>
+                                    <li>_________________</li>
+                                    <li>Firma del Secretario Gremial o Apoderado</li>
+                                    <li>Aclaracion:</li>
+                                    <li>DNI:</li>
+                                    <li>Lugar y Fecha:</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </fieldset>
+                </fieldset>
+
+                <div class="DeclaJurada">
+                    <fieldset class="envuelve">
+                        <fieldset>
+                            <legend>DECLARACIÓN JURADA:</legend>
+                            <P>Manidestamos en carácter de Declaracion Jurada que toda la información suministrada
+                                procedente es
+                                exacta</P>
+
+                            <table style="border: 1px solid #202325;">
+
+                                <tr>
+                                    <th style="border: 1px solid #FFFFFF; color: #FFFFFF;">CÓDIGO DE DESCUENTO POR EL
+                                        CUAL SE AFILIA
+                                    </th>
+                                    <th style="border: 1px solid #FFFFFF; color: #FFFFFF;">DESCRIPCIÓN % O MONTO FIJO A
+                                        DESCONTAR</th>
+                                    <th style="border: 1px solid #FFFFFF; color: #FFFFFF;">MARQUE LA OPCIÓN</th>
+                                </tr>
+
+                                <tr>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF;">CÓDIGO 1260</td>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF">2%</td>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF"> <input
+                                            class="checkbox" name="opcion" type="radio"></td>
+                                </tr>
+                                <tr>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF">CÓDIGO 1261</td>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF">$</td>
+                                    <td style="border: 1px solid #202325; background-color: #FFFFFF"><input
+                                            class="checkbox" name="opcion" type="radio">
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </fieldset>
+                </div>
+
+                <div class="BotonEnviar">
+                    <input onclick="enviar()" id="BotonEnviarFormulario" type="button" value="ENVIAR FORMULARIO">
+                </div>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <fieldset>
+            <div class="footer">
+                <h6>Garibaldi N° 1583 - Tandil - CP 7000 - Buenos Aires - Argentina</h6>
+            </div>
+            <div class="footer">
+                <h6> Telefax: (0249) 444-9482 - E-mail: suetratandil@gmail.com - Web: www.suetratandil.org.ar</h6>
+            </div>
+        </fieldset>
+    </footer>
+    <script src="JavascriptFormulario.js"></script>
+</body>
+
+</html>

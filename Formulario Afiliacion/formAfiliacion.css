@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h2,
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+#Insc {
+    margin-top: 25px;
+}
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 30px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+
+.logoSuetra {
+    width: 200PX;
+    height: 200PX;
+}
+
+#LogoSuetra {    
+    margin: 35px 0px 25px 50px;
+}
+
+.SUETRA {
+    width: 1580PX;
+}
+
+.logoCGT {
+    width: 200PX;
+    height: 200PX;
+}
+
+#LogoCGT {
+    margin: 35px 50px 25px 0px;
+}
+
+/**/
+.SolicitudAfiliacion {
+
+    text-align: center;
+}
+
+#SolAfi {
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #202325;
+
+
+}
+
+/* */
+main {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #202325;
+}
+
+select {
+    height: 35px;
+    width: 220px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+.envuelve {
+    background-color: #202325;
+}
+
+legend {
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #202325;
+    border: 2px solid #202325;
+
+}
+
+#Calendario {
+    width: 220px;
+}
+
+fieldset {
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #202325
+}
+
+legend {
+    margin-left: 30px;
+
+}
+
+.ContenedorL {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    height: 30px;
+
+}
+
+input {
+    height: 35px;
+    width: 70%;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+table {
+    margin: 20px;
+    border-radius: 12px;
+}
+
+th {
+    padding: 10px;
+    border-radius: 12px;
+}
+
+td {
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+    margin: 20px
+}
+
+p {
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.SolicitanteGremio,
+.SolicitanteAfiliado {
+    display: inline-block;
+    width: 40%;
+    margin: 60px 60px 30px 60px;
+}
+
+table {
+    background-color: #202325;
+}
+
+.BotonEnviar {
+    text-align: center;
+}
+
+#BotonEnviarFormulario {
+    width: 40%;
+    height: 60px;
+    background-color: #33B0F2;
+    border: #33B0F2;
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+/* */
+hr {
+    color: #202325;
+}
+
+footer {
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.footer {
+    margin: 20px;
+    text-align: center;
+    color: #202325;
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-size: xx-large;
+}
