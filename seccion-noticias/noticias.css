@@ -1,0 +1,17 @@
+.card-noticias{
+    background-color: #dee2e6;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-subnoticia{
+    background-color: white;
+    margin: 0px!important;
+    padding-top: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px!important;
+}
+
+a{
+    text-decoration: none;
+}
